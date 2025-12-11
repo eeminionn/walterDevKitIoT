@@ -18,23 +18,6 @@ El dispositivo está encapsulado en una **carcasa 3D personalizada** diseñada p
 
 ---
 
-# 📑 Índice
-
-1. [Descripción General](#-descripción-general)  
-2. [Objetivos del Sistema](#-objetivos-del-sistema)  
-3. [Arquitectura del Sistema Embebido](#-arquitectura-del-sistema-embebido)  
-4. [Características del Walter DevKit](#-características-del-walter-devkit)  
-5. [Programación del Sistema](#-programación-del-sistema)  
-6. [Flujo de Funcionamiento](#-flujo-de-funcionamiento)  
-7. [Diseño del Modelo 3D](#-diseño-del-modelo-3d)  
-8. [Ventajas y Limitaciones](#-ventajas-y-limitaciones)  
-9. [Estado Actual del Proyecto](#-estado-actual-del-proyecto)  
-10. [Próximos Pasos](#-próximos-pasos)  
-11. [Código Relevante del Firmware](#-código-relevante-del-firmware)  
-12. [Conclusión](#-conclusión)
-
----
-
 # 🧩 Descripción General
 
 El proyecto consiste en integrar un **sistema electrónico completo dentro de un collar**, combinando estética y funcionalidad. El usuario, al presionar discretamente un botón escondido, activa el sistema de emergencia:
@@ -110,7 +93,7 @@ Este módulo fue seleccionado porque:
 
 # 💻 Programación del Sistema
 
-El firmware se desarrolló en **Arduino**, usando:
+El firmware se desarrolló en **ESP-32**, usando:
 
 - `WalterModem.h` para manejar el módem y GNSS  
 - `HardwareSerial` para UART  
